@@ -1,0 +1,28 @@
+{
+    "name": "IRremote",
+    "version": "1.0.0",
+    "description": "ir remote",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "shims.d.ts",
+        "enums.d.ts",
+        "ir.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h",
+        "_locales/zh/remote-strings.json",
+        "NecIR.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}
